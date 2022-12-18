@@ -1,79 +1,97 @@
 * {
-    font-weight: normal;
-    font-family: arial;
-    font-size: 10px;
-    box-sizing: border-box;
-  }
-  
-  html {
-    background-image: linear-gradient(to bottom, white, 60% ,rgb(253, 185, 39), 80%, rgb(85, 37, 130)); 
-    }
-  
-  main {
-    margin-top: 24px;
-    margin-bottom: 24px;
-    text-align: center;
-    background-color: #EEEEEE;
-    width: 100%;
-    border-radius: 24px;
-    padding: 10 0;
-  }
-  
-  #title {
-    margin: auto;
-    font-size: 4rem;
-    font-weight: bold;
-    padding-top: 24px; 
-  }
-  
-  
-  #sub-title {
-    font-size: 1.5rem;
-    font-weight: normal;
-    font-style: italic;
-    margin-bottom: 30px;
-    margin-top: 3px;
-    text-align: center;
-  }
-  
-  figure {
-    background-color: white;
-    border-radius: 8px;
-    margin: 20px;
-  }
-  
-  img {
-    max-width:100%;
-    padding: 10px;
-    padding-bottom: 3px;
-  }
-  
-  figcaption {
-    font-size: 0.8rem;
-    text-align: center;
-    padding-left: 10px;
-    padding-bottom: 3px;
-     ; 
-  }
-  
-  .divider {
-    border-width: 2px;
-    border-style: solid;
-    border-image: linear-gradient(to right, #EEEEEE, rgb(85,37,130), #EEEEEE) 1;
-    max-width: 80%;
-    margin: auto;
-  }
+  font-weight: normal;
+  font-family: arial;
+  font-size: 10px;
+  box-sizing: border-box;
+}
 
-  #tribute-info {
-    width: 100%;
-    text-align: center;
-    line-height: 3rem;
-    margin: auto;
-  }
+html {
+  background-image: linear-gradient(
+    to bottom,
+    white,
+    60%,
+    rgb(253, 185, 39),
+    80%,
+    rgb(85, 37, 130)
+  );
+}
 
-  #personal {
-    font-size: 2.5rem;
-  }
+main {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  text-align: center;
+  background-color: #eeeeee;
+  width: 100%;
+  border-radius: 24px;
+  padding: 10 0;
+}
+
+#title {
+  margin: auto;
+  font-size: 4rem;
+  font-weight: bold;
+  padding-top: 24px;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 10px;
+}
+
+#navbar a {
+  font-size: 2rem;
+  color: black;
+  text-decoration: none;
+}
+
+#sub-title {
+  font-size: 1.5rem;
+  font-weight: normal;
+  font-style: italic;
+  margin-bottom: 30px;
+  margin-top: 3px;
+  text-align: center;
+}
+
+figure {
+  background-color: white;
+  border-radius: 8px;
+  margin: 20px;
+}
+
+img {
+  max-width: 100%;
+  padding: 10px;
+  padding-bottom: 3px;
+}
+
+figcaption {
+  font-size: 0.8rem;
+  text-align: center;
+  padding-left: 10px;
+  padding-bottom: 3px;
+}
+
+.divider {
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(to right, #eeeeee, rgb(85, 37, 130), #eeeeee) 1;
+  max-width: 80%;
+  margin: auto;
+}
+
+#tribute-info {
+  width: 100%;
+  text-align: center;
+  line-height: 3rem;
+  margin: auto;
+}
+
+#personal {
+  font-size: 2.5rem;
+}
 
 #bio {
   font-size: 1.4rem;
@@ -98,4 +116,8 @@
   line-height: 3rem;
   margin: auto;
   margin-bottom: 20px;
+}
+
+.heading {
+  font-size: 2.5rem;
 }
